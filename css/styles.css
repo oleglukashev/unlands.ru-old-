@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'cuprumregular';
+  src: url('../fonts/Cuprum-Regular/cuprum-regular.eot');
+  src: url('../fonts/Cuprum-Regular/cuprum-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Cuprum-Regular/cuprum-regular.woff') format('woff'),
+       url('../fonts/Cuprum-Regular/cuprum-regular.ttf') format('truetype'),
+       url('../fonts/Cuprum-Regular/cuprum-regular.svg#cuprumregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "cuprumregular";
+}
+
+div.navigation {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+div.navigation-container div {
+  padding: 10px 0 0;
+  margin: 0 55px 10px 0;
+  font-size: 14px;
+  color: #291f35;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  zoom: 1;
+  *display: inline;
+  cursor: pointer;
+}
+
+div.navigation-container div:hover {
+  border-bottom: 1px dashed #291f35;
+  margin-bottom: 9px;
+}
+
+div.navigation-phone {
+  float: right;
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+div.navigation-phone span {
+  color: #818285;
+}
+
+div.title-container {
+  padding: 40px 0 24px;
+}
+
+div.title-container div.line {
+  height: 2px;
+  background-color: #000;
+}
+
+div.title-container div.line:first-child {
+  margin-bottom: 6px;
+}
+
+div.title-container div.title {
+  width: 300px;
+  margin: -23px auto 0;
+  text-align: center;
+  background-color: #fff;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+div.logo {
+  margin: 35px 0;
+}
+
+div.logo div.title-container {
+  margin-bottom: 5px;
+}
+
+div.logo div.title-container div.title {
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+div.order {
+  height: 878px;
+}
+
+div.order div.background {
+  overflow: hidden;
+  height: 878px;
+}
+
+div.order-container {
+  position: relative;
+  width: 1000px;
+  margin: -878px auto 0;
+  height: 798px;
+}
+
+div.text1 {
+  margin: 80px 0 0 0;
+}
+
+div.text1 div {
+  margin-bottom: 16px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 40px;
+  color: #000;
+}
+
+div.text1 div span {
+  color: #cdde54;
+}
+
+div.text1 ul li {
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 26px;
+  font-size: 26px;
+  list-style-type: square;
+  margin-left: 45px;
+}
+
+div.query-form {
+  position: absolute;
+  bottom: 80px;
+  width: 270px;
+  padding: 20px 10px 15px;
+  background: url("../images/form.png") repeat-x 0 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+div.query-form p {
+  font-size: 25px;
+  color: #000;
+  margin: 0 0 15px 15px;
+}
+
+div.query-form input {
+  width: 240px;
+  padding: 14px 15px;
+  margin-bottom: 10px;
+  background-color: #71767d;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  border: 0 solid transparent;
+  color: #fff;
+}
+
+div.query-form div.input-button input {
+  width: 270px;
+  margin: 10px 0 0;
+  background-color: #10b596;
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+  cursor: pointer;
+}
+
+div.how-order {
+  background-color: #516fb6;
+}
+
+div.how-order div.title-container div.title {
+  color: #fff;
+  width: 300px;
+  background-color: #516fb6;
+}
+
+div.how-order div.title-container div.line {
+  background-color: #fff;
+}
+
+

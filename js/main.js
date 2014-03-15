@@ -1,0 +1,1 @@
+$("div.query-form div.input-text input").placeholder();

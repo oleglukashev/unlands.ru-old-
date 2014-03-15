@@ -16,16 +16,6 @@ fieldset, form, label, legend {
   background: transparent;
 }
 
-#footer tbody {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 90% !important;
-  vertical-align: baseline;
-  background: transparent;
-}
-
 body {
   line-height: 1;
 }
