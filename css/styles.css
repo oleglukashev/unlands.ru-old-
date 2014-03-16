@@ -339,3 +339,36 @@ div.sales {
   background: #de3c41 url("../images/sales.png") no-repeat center 35px;
 }
 
+div.footer {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 0;
+  padding: 20px;
+}
+
+div.footer div {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+  font-size: 18px;
+}
+
+div.skype {
+  padding: 10px 0 10px 45px;
+  background: url("../images/skype.png") no-repeat 0 0;
+}
+
+div.footer-phone {
+  margin-left: 320px;
+  padding: 10px 0 10px 45px;
+  background: url("../images/footer_phone.png") no-repeat 0 0;
+}
+
+div.cop {
+  float: right;
+  margin-top: 10px;
+  text-align: right;
+}
+
