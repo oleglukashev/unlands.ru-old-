@@ -90,23 +90,24 @@ div.logo div.title-container div.title {
 }
 
 div.order {
-  height: 878px;
+  height: 750px;
 }
 
 div.order div.background {
   overflow: hidden;
-  height: 878px;
+  height: 750px;
 }
+
+div.order div.background img {
+  margin-top: -60px;
+} 
 
 div.order-container {
   position: relative;
   width: 1000px;
-  margin: -878px auto 0;
-  height: 798px;
-}
-
-div.text1 {
-  margin: 80px 0 0 0;
+  margin: -750px auto 0;
+  padding-top: 80px;
+  height: 670px;
 }
 
 div.text1 div {
@@ -172,10 +173,17 @@ div.query-form div.input-button input {
 
 div.how-order {
   background-color: #516fb6;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+div.how-order-container {
+  width: 1000px;
+  margin: 40px auto 0;
+  text-transform: uppercase;
 }
 
 div.how-order div.title-container div.title {
-  color: #fff;
   width: 300px;
   background-color: #516fb6;
 }
@@ -184,4 +192,150 @@ div.how-order div.title-container div.line {
   background-color: #fff;
 }
 
+div.flow {
+  font-size: 0;
+}
+
+div.flow div {
+  width: 200px;
+  padding-top: 210px;
+  font-size: 22px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  text-align: center;
+  margin-left: 66px;
+  line-height: 25px;
+}
+
+div.flow div:first-child {
+  margin-left: 0;
+}
+
+div.flow div.step1 {
+  background: url("../images/step1.png") no-repeat center 0;
+}
+
+div.flow div.step2 {
+  background: url("../images/step2.png") no-repeat center 0;
+}
+
+div.flow div.step3 {
+  background: url("../images/step3.png") no-repeat center 0;
+}
+
+div.flow div.step4 {
+  background: url("../images/step4.png") no-repeat center 0;
+}
+
+div.finish_site {
+  margin-top: 120px;
+  padding-top: 295px;
+  background: url("../images/ready_site.png") no-repeat center 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+div.partners div.title-container div.line {
+  background-color: #663091; 
+}
+
+div.partners div.title-container div.title {
+  color: #663091; 
+}
+
+div.partners-container {
+  font-size: 0;
+  padding-bottom: 40px;
+}
+
+div.partners-container div {
+  padding: 15px;
+  font-size: 22px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+  text-align: center;
+  margin-left: 66px;
+  line-height: 25px;
+  border: 1px solid #663091;
+}
+
+div.partners-container div img {
+  width: 200px;
+}
+
+div.partners-container div:hover {
+  border: 1px solid transparent;
+}
+
+div.about {
+  background-color: #f5966a;
+}
+
+div.about div.title-container div.line {
+  background-color: #fff; 
+}
+
+div.about div.title-container div.title {
+  color: #fff;
+  background-color: #f5966a;
+}
+
+div.about-container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+}
+
+div.about-layout {
+  font-size: 0;
+}
+
+div.about-layout div.about-layout-item {
+  position: relative;
+  width: 410px;
+  height: 210px;
+  padding: 20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+  color: #fff;
+}
+
+div.about-layout div.about-layout-item div {
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+div.about-layout div.about-layout-item p {
+  width: 220px;
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+div.support {
+  background: #cdde54 url("../images/support.png") no-repeat center 55px;
+}
+
+div.design {
+  background: #0fb898 url("../images/design.png") no-repeat center 55px;
+}
+
+div.tech {
+  background: #9154a2 url("../images/tech.png") no-repeat center 25px;
+}
+
+div.sales {
+  background: #de3c41 url("../images/sales.png") no-repeat center 35px;
+}
 
