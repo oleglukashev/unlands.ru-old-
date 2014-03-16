@@ -150,14 +150,28 @@ div.query-form p {
 
 div.query-form input {
   width: 240px;
-  padding: 14px 15px;
-  margin-bottom: 10px;
+  padding: 9px 15px;
+  margin: 5px 0;
   background-color: #71767d;
   -webkit-border-radius: 28px;
   -moz-border-radius: 28px;
   border-radius: 28px;
   border: 0 solid transparent;
   color: #fff;
+}
+
+div.query-form div.error-name,
+div.query-form div.success {
+  display: none;
+}
+
+div.query-form div.error-name {
+  color: #de3c41;
+  margin-left: 15px;
+}
+
+div.query-form div.success {
+  color: #0fb898;
 }
 
 div.query-form div.input-button input {
